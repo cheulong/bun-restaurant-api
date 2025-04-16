@@ -1,0 +1,8 @@
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile.prod
+    ports:
+      - "3001:3001"
+    
